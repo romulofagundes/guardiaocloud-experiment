@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Execuções</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/execs.js"></script>
+<script src="js/exec1.js"></script>
+<script src="js/exec2.js"></script>
+<script src="js/exec3.js"></script>
+<script src="js/exec-others.js"></script>
+<body>
+<h1>Gráficos Execução</h1>
+<table class="table" id="tblResults">
+        <tr>
+                <th>ID</th>
+                <th>Start</th>
+                <th>Inc</th>
+                <th>Graph</th>
+                <th>Error</th>
+                <th>Quantidade</th>
+                <th>Download</th>
+        </tr>
+        <tr>
+                <td>1</td>
+                <td>100</td>
+                <td>10</td>
+                <td><a href="#container1" class="btn btn-primary">Graph</a></td>
+                <td><a href="#container1-erro" class="btn btn-primary">Error</a></td>
+                <td><a href="#container1-count" class="btn btn-primary">Quantidade</a></td>
+                <td><a href="result_exec1.csv" target="_blank" class="btn btn-primary">Download</a></td>
+        </tr>
+        <tr>
+                <td>2</td>
+                <td>1000</td>
+                <td>50</td>
+                <td><a href="#container2" class="btn btn-primary">Graph</a></td>
+                <td><a href="#container2-erro" class="btn btn-primary">Error</a></td>
+                <td><a href="#container2-count" class="btn btn-primary">Quantidade</a></td>
+                <td><a href="result_exec2.csv" target="_blank" class="btn btn-primary">Download</a></td>
+        </tr>
+        <tr>
+                <td>3</td>
+                <td>2000</td>
+                <td>50</td>
+                <td><a href="#container3" class="btn btn-primary">Graph</a></td>
+                <td><a href="#container3-erro" class="btn btn-primary">Error</a></td>
+                <td><a href="#container3-count" class="btn btn-primary">Quantidade</a></td>
+                <td><a href="result_exec3.csv" target="_blank" class="btn btn-primary">Download</a></td>
+        </tr>
+</table>
+
+<div id="container1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+<div id="container1-high" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+<div id="container2" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+<div id="container3" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+<div id="container-1-2" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<h1>Gráficos Erros</h1>
+<div id="container1-erro" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+<div id="container2-erro" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+<div id="container3-erro" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+<h1>Quantidade</h1>
+<div id="container1-count" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+<div id="container2-count" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+<div id="container3-count" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a href="#tblResults" class="btn btn-primary">Table Result</a>
+</body>
